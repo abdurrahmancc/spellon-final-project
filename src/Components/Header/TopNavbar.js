@@ -6,6 +6,7 @@ import bg_img from "../../assets/Vector1.png";
 import engine1 from "../../assets/engine1.png";
 import engine2 from "../../assets/engine2.png";
 import Test from "../../Test";
+import { Zoom } from "react-reveal";
 
 const TopNavbar = () => {
   return (
@@ -89,17 +90,19 @@ const TopNavbar = () => {
                 <span className=" text-white"> Clicks</span>
                 <br /> Into Customers{" "}
               </h1>
-              <p className="text-white relative text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[34px] text-center lg:text-start">
-                Ads cost money. Good ads make money.
-              </p>
-              <span className="text-white text-[15px] leading-[25px] lg:text-[24px] lg:leading-[34px] block text-center lg:text-start">
-                It’s time to maximize results and sales to make the most of your ad budget.
-              </span>
-              <div className="lg:pt-10 pt-5 flex justify-center lg:justify-start">
-                <button className="lg:px-[30px] py-[14px] px-[22px] text-white lg:hover:bg-[#F13A9E] lg:py-[22px] rounded-full lg:bg-[#7423C6] bg-[#F13A9E] ">
-                  Speak to our team
-                </button>
-              </div>
+              <Zoom top cascade>
+                <p className="text-white relative text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[34px] text-center lg:text-start">
+                  Ads cost money. Good ads make money.
+                </p>
+                <span className="text-white text-[15px] leading-[25px] lg:text-[24px] lg:leading-[34px] block text-center lg:text-start">
+                  It’s time to maximize results and sales to make the most of your ad budget.
+                </span>
+                <div className="lg:pt-10 pt-5 flex justify-center lg:justify-start">
+                  <button className="lg:px-[30px] py-[14px] px-[22px] text-white lg:hover:bg-[#F13A9E] lg:py-[22px] rounded-full lg:bg-[#7423C6] bg-[#F13A9E] ">
+                    Speak to our team
+                  </button>
+                </div>
+              </Zoom>
             </div>
             <div className="lg:max-w-[738px] relative mx-auto lg:mx-0 max-w-[277px] h-full">
               <img src={illustration} alt="" />

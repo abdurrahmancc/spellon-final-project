@@ -1,4 +1,5 @@
 import React from "react";
+import { Bounce } from "react-reveal";
 import user1 from "../assets/user-1.png";
 import user2 from "../assets/user-2.png";
 import user3 from "../assets/user-3.png";
@@ -22,73 +23,77 @@ const MeetTheTeam = () => {
         </div>
         <div className="container mx-auto">
           <div className="max-w-[864px]  mx-auto">
-            <h2 className="lg:text-[38px] text-[26px] leading-[36px] font-bold text-white pb-[30px] lg:leading-[48px] font-bol capitalize text-center">
-              Meet The A-Team
-            </h2>
-            <p className="text-white text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[30px] text-center">
-              Founded by Yoji Selman who’s spent the past five years building social media brands
-              while amassing hundreds of thousands of followers for his clients, Adverlo has
-              assembled a team well-suited for the digital marketing growth of its clients.
-            </p>
-            <p className="text-white text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[30px] text-center">
-              Equipped with the skillset to scale brands and businesses, Adverlo’s team is more than
-              capable of fulfilling your marketing needs.
-            </p>
+            <Bounce bottom cascade>
+              <h2 className="lg:text-[38px] text-[26px] leading-[36px] font-bold text-white pb-[30px] lg:leading-[48px] font-bol capitalize text-center">
+                Meet The A-Team
+              </h2>
+              <p className="text-white text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[30px] text-center">
+                Founded by Yoji Selman who’s spent the past five years building social media brands
+                while amassing hundreds of thousands of followers for his clients, Adverlo has
+                assembled a team well-suited for the digital marketing growth of its clients.
+              </p>
+              <p className="text-white text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[30px] text-center">
+                Equipped with the skillset to scale brands and businesses, Adverlo’s team is more
+                than capable of fulfilling your marketing needs.
+              </p>
+            </Bounce>
             <div className="grid grid-cols-3 items-center justify-center justify-items-center">
-              <div class="card rounded-lg ">
-                <figure class="lg:px-10 pt-10">
-                  <img
-                    src={user1}
-                    className="rounded-[50%] lg:w-20 lg:h-20 w-[73px] h-[73px]"
-                    alt="user_photo"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body py-0 items-center text-center">
-                  <h2 class="card-title font-semibold text-[12px] lg:text-[28px] leading-[34px] text-white capitalize pt-3 lg:pt-[34px] ">
-                    Yoji Selman
-                  </h2>
-                  <span className="text-white text-[8px] lg:text-[20px] lg:pt-2 capitalize">
-                    Founder
-                  </span>
+              <Bounce bottom cascade>
+                <div class="card rounded-lg ">
+                  <figure class="lg:px-10 pt-10">
+                    <img
+                      src={user1}
+                      className="rounded-[50%] lg:w-20 lg:h-20 w-[73px] h-[73px]"
+                      alt="user_photo"
+                      class="rounded-xl"
+                    />
+                  </figure>
+                  <div class="card-body py-0 items-center text-center">
+                    <h2 class="card-title font-semibold text-[12px] lg:text-[28px] leading-[34px] text-white capitalize pt-3 lg:pt-[34px] ">
+                      Yoji Selman
+                    </h2>
+                    <span className="text-white text-[8px] lg:text-[20px] lg:pt-2 capitalize">
+                      Founder
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div class="card  rounded-lg ">
-                <figure class="lg:px-10 pt-10">
-                  <img
-                    src={user2}
-                    className="rounded-[50%] lg:w-20 lg:h-20 w-[73px] h-[73px]"
-                    alt="user_photo"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body py-0 items-center text-center">
-                  <h2 class="card-title font-semibold text-[12px] lg:text-[28px] leading-[34px] text-white capitalize pt-3 lg:pt-[34px] ">
-                    Ayeesha Mae
-                  </h2>
-                  <span className="text-white text-[8px] lg:text-[20px] lg:pt-2 capitalize">
-                    Chief Marketing Officer
-                  </span>
+                <div class="card  rounded-lg ">
+                  <figure class="lg:px-10 pt-10">
+                    <img
+                      src={user2}
+                      className="rounded-[50%] lg:w-20 lg:h-20 w-[73px] h-[73px]"
+                      alt="user_photo"
+                      class="rounded-xl"
+                    />
+                  </figure>
+                  <div class="card-body py-0 items-center text-center">
+                    <h2 class="card-title font-semibold text-[12px] lg:text-[28px] leading-[34px] text-white capitalize pt-3 lg:pt-[34px] ">
+                      Ayeesha Mae
+                    </h2>
+                    <span className="text-white text-[8px] lg:text-[20px] lg:pt-2 capitalize">
+                      Chief Marketing Officer
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div class="card  rounded-lg ">
-                <figure class="lg:px-10 pt-10">
-                  <img
-                    src={user3}
-                    className="rounded-[50%] lg:w-20 lg:h-20 w-[73px] h-[73px]"
-                    alt="user_photo"
-                    class="rounded-xl"
-                  />
-                </figure>
-                <div class="card-body py-0 items-center text-center">
-                  <h2 class="card-title font-semibold text-[12px] lg:text-[28px] leading-[34px] text-white capitalize pt-3 lg:pt-[34px] ">
-                    Julie Ocular
-                  </h2>
-                  <span className="text-white text-[8px] lg:text-[20px] lg:pt-2 capitalize">
-                    Copywriter
-                  </span>
+                <div class="card  rounded-lg ">
+                  <figure class="lg:px-10 pt-10">
+                    <img
+                      src={user3}
+                      className="rounded-[50%] lg:w-20 lg:h-20 w-[73px] h-[73px]"
+                      alt="user_photo"
+                      class="rounded-xl"
+                    />
+                  </figure>
+                  <div class="card-body py-0 items-center text-center">
+                    <h2 class="card-title font-semibold text-[12px] lg:text-[28px] leading-[34px] text-white capitalize pt-3 lg:pt-[34px] ">
+                      Julie Ocular
+                    </h2>
+                    <span className="text-white text-[8px] lg:text-[20px] lg:pt-2 capitalize">
+                      Copywriter
+                    </span>
+                  </div>
                 </div>
-              </div>
+              </Bounce>
             </div>
           </div>
         </div>
