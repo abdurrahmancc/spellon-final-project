@@ -1,0 +1,117 @@
+.footer-image{
+    background-image: url(../../assets/bg_footer.png);
+}
+
+@media only screen and (min-width: 300px) and (max-width:1024px){
+    .footer-image{
+        background-image: url(../../assets/bg.png);
+    }
+}
+
+
+
+
+/*  ----------------------------------------------- */
+
+.sections .wave{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../../assets/wav.png);
+  background-size: 1000px 100px;
+}
+
+.sections .wave2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../../assets/Vector1.png);
+  background-size: 1000px 100px;
+}
+
+.sections .wave3{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../../assets/Vector3.png);
+  background-size: 1000px 100px;
+}
+.sections .wave4{
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 100px;
+  background: url(../../assets/Vector1.png);
+  background-size: 1000px 100px;
+}
+
+
+.sections .wave.wave1{
+  animation: animate 30s linear infinite;
+  z-index: 100;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+}
+
+.sections .wave.wave2{
+  animation: animate2 15s linear infinite;
+  z-index: 99;
+  opacity: 0.8;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+.sections .wave.wave3{
+  animation: animate 30s linear infinite;
+  z-index: 98;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15;
+}
+.sections .wave.wave4{
+  animation: animate 5s linear infinite;
+  z-index: 97;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 20;
+}
+
+.sections .wave.wave3{
+  animation: animate3 5s linear infinite;
+  z-index: 97;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 20;
+}
+
+@keyframes animate {
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: 1000px;
+  }
+}
+@keyframes animate2 {
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: -1000px;
+  }
+}
+@keyframes animate3 {
+  0%{
+    background-position-x: 0;
+  }
+  100%{
+    background-position-x: 1000px;
+  }
+}
