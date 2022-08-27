@@ -44,7 +44,7 @@ const OtherServices = () => {
             <Bounce effect="fadeInUp">
               <img
                 src={img}
-                className="w-full z-20 relative max-w-[246px] lg:max-w-[421px]"
+                className="w-full mx-auto z-20 relative max-w-[246px] lg:max-w-[421px]"
                 alt=""
               />
             </Bounce>

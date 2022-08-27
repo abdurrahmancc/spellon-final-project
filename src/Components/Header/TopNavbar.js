@@ -13,7 +13,7 @@ const TopNavbar = () => {
     <>
       <Test />
       <div
-        style={{ backgroundImage: `url(${bg_img})` }}
+        // style={{ backgroundImage: `url(${bg_img})` }}
         className="bg-no-repeat overflow-hidden lg:max-h-[951px] mb-60 max-h-[715px]"
       >
         <div className="pt-[17px] relative z-[1000]">
@@ -81,20 +81,20 @@ const TopNavbar = () => {
             </div>
           </div>
         </div>
-        <div className="container relative z-[200] mx-auto h-full pt-[56px] lg:pt-[120px]">
+        <div className="container relative z-[200] mx-auto h-full pt-[56px]  xl:pt-[120px]">
           <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-[60px]">
             <div className="px-6">
-              <h1 className="lg:text-[3.5vw] relative text-[32px] text-center lg:text-start pb-[30px] text-[#ffffff] font-bold leading-[42px] lg:leading-[80px]">
+              <h1 className="lg:text-[3.5vw] relative text-[32px] text-center lg:text-start pb-[30px] text-[#ffffff] font-bold leading-[42px] xl:leading-[80px] lg:leading-[60px]">
                 We Convert
                 <span className="ring"></span>
                 <span className=" text-white"> Clicks</span>
                 <br /> Into Customers{" "}
               </h1>
               <Zoom top cascade>
-                <p className="text-white relative text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[24px] lg:leading-[34px] text-center lg:text-start">
+                <p className="text-white relative text-[15px] leading-[25px] pb-[10px] lg:pb-5 lg:text-[20px] xl:text-[24px] xl:leading-[34px] lg:leading-[30px] text-center lg:text-start">
                   Ads cost money. Good ads make money.
                 </p>
-                <span className="text-white text-[15px] leading-[25px] lg:text-[24px] lg:leading-[34px] block text-center lg:text-start">
+                <span className="text-white text-[15px] leading-[25px] xl:text-[24px] lg:text-[20px] xl:leading-[34px] block text-center lg:text-start">
                   It’s time to maximize results and sales to make the most of your ad budget.
                 </span>
                 <div className="lg:pt-10 pt-5 flex justify-center lg:justify-start">

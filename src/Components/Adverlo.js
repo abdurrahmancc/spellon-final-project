@@ -9,7 +9,7 @@ const Adverlo = () => {
         <div data-aos="flip-right" className="cssanimation hu__hu__ ">
           <img src={img} className="w-[576px] h-auto" alt="images" />
         </div>
-        <div className="max-w-[620px]">
+        <div className="max-w-[620px] mx-3">
           <Bounce right cascade>
             <h2 className="font-bold text-[38px]  pb-[30px] text-[#000000] leading-[48px] capitalize">
               Why Adverlo?
