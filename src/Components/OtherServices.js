@@ -9,7 +9,7 @@ const OtherServices = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bg_img})` }}
-      className="bg-no-repeat lg:h-[845px] h-[832px]"
+      className="bg-no-repeat lg:h-[845px] h-[832px] z-10 relative"
     >
       <div className="container relative h-full mx-auto pt-10 lg:pt-[166px]">
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-[60px]">

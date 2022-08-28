@@ -23,22 +23,22 @@ const Schedule = () => {
         <div className="max-w-[1246px] mx-auto lg:shadow">
           <div className="grid lg:grid-cols-2 grid-cols-1 justify-items-center items-center">
             <div className="pt-10">
-              <div class="card max-w-[506px]">
+              <div className="card max-w-[506px]">
                 <Bounce left cascade>
-                  <figure class="px-10">
+                  <figure className="px-10">
                     <img
                       src={user_5}
                       alt="Shoes"
-                      class="w-[74px] h-[74px] lg:w-[100px] lg:h-[100px]"
+                      className="w-[74px] h-[74px] lg:w-[100px] lg:h-[100px]"
                     />
                   </figure>
                 </Bounce>
-                <div class="card-body pt-0 items-center text-center">
+                <div className="card-body pt-0 items-center text-center">
                   <Bounce left cascade>
-                    <span className="text-[16px] pt-[11px] pb-[16px] leading-[19px]">
+                    <span className="text-[16px] text-[464646] pt-[11px] pb-[16px] leading-[19px]">
                       Esther Howard
                     </span>
-                    <h2 class="card-title font-bold text-black text-[24px] leading-[48px] py-0">
+                    <h2 className="card-title font-bold text-black text-[24px] leading-[48px] py-0">
                       1-On-1 Meeting
                     </h2>
                     <p className="text-[21px] font-bold leading-[26px] text-black lg:pb-[31px] pb-[22px]">
